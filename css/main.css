@@ -1,0 +1,33 @@
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.taskList{
+    padding: 1rem;
+
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f6674;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+#tasks .task .content .text{
+    color: white;
+    font-size: 1.125rem;
+    background-color: #0f6674;
+    width: 100%;
+    display: block;
+    mso-border-shadow: no;
+
+
+
+}
